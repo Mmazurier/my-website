@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au Levain Gourmand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Au Levain Gourmand </h1>
+        <nav>
+            <div class="container">
+                <div>
+                <ul>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#produits">Nos produits</a></li>
+                    <li><a href="#a-propos">À propos de nous</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+    <section id="accueil">
+        <h2>Bienvenue chez nous !</h2>
+        <p>Découvrez nos délicieux pains et viennoiseries faits avec amour.</p>
+        <a href="#produits" class="cta-button">Voir nos produits</a>
+    </section>
+    </div>
+    <div>
+    <section id="produits">
+        <h2>Nos produits</h2>
+        <ul style="list-style: none ;">
+            <li>🥖 Baguettes croustillantes et merveilleux sandwichs - Nos baguettes sont croustillantes à l'extérieur et moelleuses à l'intérieur.</li>
+            <li>🍰 Pâtisseries - Régalez-vous avec nos délicieuses pâtisseries, mille feuilles, éclairs, tartelettes, ...</li>
+            <li>🍞 Pains spéciaux - Découvrez nos pains spéciaux: Pain complet, pain aux noix ou pain nordique.</li>
+        </ul>
+    </section>
+    </div>
+    <div>
+    <section id="galerie">
+        <h2>Galerie de photos</h2>
+        <div class="image-container">
+            <img src="image/pain.jpg" alt="Pain frais">
+            <img src="image/baguette.jpg" alt="Baguette croustillante">
+            <img src="image/patisserie.jpg" alt="Pâtisserie sucrée">
+            <img src="image/gateau.jpg" alt="Gâteaux">
+            <img src="image/sandwich.jpg" alt="Sandwich">
+        </div>
+    </section>
+    </div>
+    <div>
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+            <section id="image">
+            <p> <strong> Adresse </strong> : 123 Rue de la Boulangerie</p>
+            <p> <strong> Téléphone </strong> : 01 234 567 890</p>
+            <p> <strong> Email </strong> :<a href="mailto:contact@boulangeriedubonpain.com" style="color: #ffe6a7;"><i> contact@aulevaingourmand.com</i></a></p>
+        </address>
+        <h3>Laissez-nous un message</h3>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    </div>
+    <footer>
+        <p style="color: #000000">&copy; 2023 Au Levain Gourmand. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
